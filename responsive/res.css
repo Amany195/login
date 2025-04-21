@@ -1,0 +1,11 @@
+@media screen and (max-width:768px) {
+    .btnlog{
+        display: none;
+    }
+    .barr{
+        display: flex;
+    }
+    .base{
+        display: flex;
+    }
+}

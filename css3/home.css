@@ -1,0 +1,77 @@
+.int{
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    
+}
+.col{
+    overflow: hidden;
+}
+.card:hover .int{
+    top: 50%;
+    bottom: 0;
+    
+}
+.card:hover img{
+    transform: scale(1.2);
+}
+img{
+    transition: all 0.5s;
+}
+.btnlog{
+    border-color: yellow;
+    font-size: 24px;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+.btnlog:hover{
+    background-color: yellow !important;
+}
+nav{
+    background-color: #243640;
+    box-shadow: 3px 3px 12px black;
+}
+.container{
+    background-color: #243640;
+}
+.barr{
+    font-size: 24px;
+    display: none;
+}
+.exite{
+    top: 10px;
+    right:10px ;
+    font-size: 20px;
+}
+.rightt{
+    top: 50%;
+    right: 25px;
+    font-size: 20px
+}
+.leftt{
+    top: 50%;
+    left: 25px;
+    font-size: 20px;
+}
+.base{
+    border-color: #ffc107;
+    font-size: 24px;
+    font-weight: 400;
+    transition: all 0.5s;
+    display: none;
+}
+.base:hover{
+    background-color: #ffc107 !important;
+}
+.welcome{
+    color: #16a2b8;
+}
+.innner{
+    width: 400px;
+    height: 400px;
+    background-color: #243640;
+    box-shadow: 3px 3px 12px black;
+}

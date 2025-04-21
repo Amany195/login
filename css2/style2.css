@@ -1,0 +1,21 @@
+.container{
+    margin-top: 100px !important;
+    padding-block: 30px;
+    background-color: rgba(47, 67, 79, 0.597);
+    box-shadow: 0rem 0px 13px 0px #0000004a;
+    width: fit-content;
+}
+body{
+   background-image: url('../images/fingerprint-identity-sensor-data-protection-system-podium-hologram-blue-light-and-concept-free-vector.jpg');
+   
+background-position: center; 
+object-fit: cover;
+background-repeat: no-repeat;
+
+min-height: 100%;
+
+}
+h1{
+    max-width: 30px;
+    margin-left: -60px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css2/style2.css">
+</head>
+<body>
+    <div class="container   d-flex flex-column justify-content-center align-items-center text-center">
+        <h1 class="text-white"> smart login system</h1>
+        <form  class="formm" >
+            <input type="text" name="yourname" placeholder="enter your name " class="form-control text-danger  border-white mb-3 w-100 yourname" >
+            <p class="d-none text-danger text-start"> *name must start with capital letter</p>
+            <input type="email" name="email" placeholder="Enter Your Email" class="form-control text-danger border-white mb-3 w-100 yourmail"  >
+            <p class="d-none text-danger text-start">*email must start with letter folloewd by number @gmail.com</p>
+            <input type="password" name="password" placeholder="Enter Your password" class="form-control text-danger border-white mb-3 w-100 yourpassword">
+            <p class="d-none text-danger text-start"> *number or letter </p>
+            <button class="btn btn-dark text-bg-info w-100 mb-3 buttn" id="logbut">login</button>
+            <h2 class="text-white">you have any account?</h2>
+           
+            <button class="border-0 bg-transparent signbutn text-white " type="button"> sign in</button>
+            <p class="d-none message1"> email or password is in correct</p>
+            <p class="d-none message2">this email is already exist</p>
+          
+            <p class="yes d-none">success</p>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="js2/main2.js"></script>
+</body>
+</html>
