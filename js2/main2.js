@@ -69,6 +69,7 @@ function search(){
                return false;
         }
     }
+    return true;
 }
 logbut.addEventListener("click",add);
 logbut.addEventListener("click",search);
